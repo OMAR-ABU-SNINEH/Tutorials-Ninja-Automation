@@ -1,4 +1,4 @@
-package TestProjectJan;
+package tutorialsninja.register;
 
 import java.time.Duration;
 
@@ -8,7 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class FirstClass {
+public class TC_RF_001 {
 
 	WebDriver driver;
 
@@ -18,10 +18,12 @@ public class FirstClass {
 
 	@BeforeTest
 	public void setUp() {
+
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://www.google.com");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));// 1~15
+		driver.get("https://tutorialsninja.com/demo/");
+
 	}
 
 	@Test
@@ -31,8 +33,10 @@ public class FirstClass {
 
 	@AfterTest
 	public void cleanUp() {
+
 		if (driver != null) {
 			driver.quit();
 		}
+
 	}
 }

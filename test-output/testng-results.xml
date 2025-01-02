@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-01T10:23:21 EET" name="Default suite" finished-at="2025-01-01T10:23:26 EET" duration-ms="4485">
+  <suite started-at="2025-01-02T12:58:32 EET" name="Default suite" finished-at="2025-01-02T12:58:36 EET" duration-ms="3840">
     <groups>
     </groups>
-    <test started-at="2025-01-01T10:23:21 EET" name="Default test" finished-at="2025-01-01T10:23:26 EET" duration-ms="4485">
-      <class name="TestProjectJan.FirstClass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestProjectJan.FirstClass@272113c4]" started-at="2025-01-01T10:23:21 EET" name="setUp" finished-at="2025-01-01T10:23:26 EET" duration-ms="4270" status="PASS">
+    <test started-at="2025-01-02T12:58:32 EET" name="Default test" finished-at="2025-01-02T12:58:36 EET" duration-ms="3840">
+      <class name="tutorialsninja.register.TC_RF_001">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialsninja.register.TC_RF_001@73e9cf30]" started-at="2025-01-02T12:58:32 EET" name="setUp" finished-at="2025-01-02T12:58:36 EET" duration-ms="3582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="myTest()[pri:0, instance:TestProjectJan.FirstClass@272113c4]" started-at="2025-01-01T10:23:26 EET" name="myTest" finished-at="2025-01-01T10:23:26 EET" duration-ms="8" status="PASS">
+        <test-method signature="myTest()[pri:0, instance:tutorialsninja.register.TC_RF_001@73e9cf30]" started-at="2025-01-02T12:58:36 EET" name="myTest" finished-at="2025-01-02T12:58:36 EET" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:TestProjectJan.FirstClass@272113c4]" started-at="2025-01-01T10:23:26 EET" name="cleanUp" finished-at="2025-01-01T10:23:26 EET" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tutorialsninja.register.TC_RF_001@73e9cf30]" started-at="2025-01-02T12:58:36 EET" name="cleanUp" finished-at="2025-01-02T12:58:36 EET" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- TestProjectJan.FirstClass -->
+      </class> <!-- tutorialsninja.register.TC_RF_001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
