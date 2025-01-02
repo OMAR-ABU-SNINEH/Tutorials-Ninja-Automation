@@ -71,9 +71,9 @@ public class TC_RF_001 {
 	@AfterTest
 	public void cleanUp() {
 
-//		if (driver != null) {
-//			driver.quit();
-//		}
+		if (driver != null) {
+			driver.quit();
+		}
 
 	}
 }

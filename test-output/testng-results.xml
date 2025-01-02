@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-02T20:22:28 EET" name="Default suite" finished-at="2025-01-02T20:22:34 EET" duration-ms="5788">
+  <suite started-at="2025-01-02T21:04:40 EET" name="Default suite" finished-at="2025-01-02T21:04:47 EET" duration-ms="7043">
     <groups>
     </groups>
-    <test started-at="2025-01-02T20:22:28 EET" name="Default test" finished-at="2025-01-02T20:22:34 EET" duration-ms="5788">
+    <test started-at="2025-01-02T21:04:40 EET" name="Default test" finished-at="2025-01-02T21:04:47 EET" duration-ms="7043">
       <class name="tutorialsninja.register.TC_RF_001">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialsninja.register.TC_RF_001@73e9cf30]" started-at="2025-01-02T20:22:28 EET" name="setUp" finished-at="2025-01-02T20:22:32 EET" duration-ms="3575" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialsninja.register.TC_RF_001@2a7f1f10]" started-at="2025-01-02T21:04:40 EET" name="setUp" finished-at="2025-01-02T21:04:44 EET" duration-ms="4400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="register()[pri:1, instance:tutorialsninja.register.TC_RF_001@73e9cf30]" started-at="2025-01-02T20:22:32 EET" name="register" finished-at="2025-01-02T20:22:34 EET" duration-ms="2159" status="PASS">
+        <test-method signature="register()[pri:1, instance:tutorialsninja.register.TC_RF_001@2a7f1f10]" started-at="2025-01-02T21:04:44 EET" name="register" finished-at="2025-01-02T21:04:47 EET" duration-ms="2240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tutorialsninja.register.TC_RF_001@73e9cf30]" started-at="2025-01-02T20:22:34 EET" name="cleanUp" finished-at="2025-01-02T20:22:34 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tutorialsninja.register.TC_RF_001@2a7f1f10]" started-at="2025-01-02T21:04:47 EET" name="cleanUp" finished-at="2025-01-02T21:04:47 EET" duration-ms="336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
