@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -30,7 +31,7 @@ public class TC_RF_001 {
 	}
 
 	@Test(priority = 1, enabled = true)
-	public void register() {
+	public void registerWithMandatoryFields() {
 
 		WebElement myAccount = driver.findElement(By.xpath("//span[text()='My Account']"));
 		myAccount.click();
@@ -66,6 +67,38 @@ public class TC_RF_001 {
 
 		WebElement continueBtn = driver.findElement(By.xpath("//input[@value='Continue']"));
 		continueBtn.click();
+
+		WebElement logout = driver.findElement(By.linkText("Logout"));
+
+		boolean actualLogout = logout.isDisplayed();
+		boolean expectLogout = true;
+		Assert.assertEquals(actualLogout, expectLogout);
+
+		WebElement createdAccountText = driver
+				.findElement(By.xpath("//h1[normalize-space()='Your Account Has Been Created!']"));
+
+		String actualAccountText = createdAccountText.getText();
+		String expectAccountText = "Your Account Has Been Created!";
+		Assert.assertEquals(actualAccountText, expectAccountText);
+
+		String actualProperDetailsOne = "Congratulations! Your new account has been successfully created!";
+		String actualProperDetailsTwo = "You can now take advantage of member privileges to enhance your online shopping experience with us.";
+		String actualProperDetailsThree = "If you have ANY questions about the operation of this online shop, please e-mail the store owner.";
+		String actualProperDetailsFour = "contact us";
+
+		WebElement theDetailsDiv = driver.findElement(By.id("content"));
+
+		Assert.assertTrue(theDetailsDiv.getText().contains(actualProperDetailsOne));
+		Assert.assertTrue(theDetailsDiv.getText().contains(actualProperDetailsTwo));
+		Assert.assertTrue(theDetailsDiv.getText().contains(actualProperDetailsThree));
+		Assert.assertTrue(theDetailsDiv.getText().contains(actualProperDetailsFour));
+
+		WebElement continueBtnOnSuccessPage = driver.findElement(By.linkText("Continue"));
+		continueBtnOnSuccessPage.click();
+
+		WebElement editAccountInfo = driver.findElement(By.linkText("Edit your account information"));
+		boolean actualAccountInfoFound = editAccountInfo.isDisplayed();
+		Assert.assertTrue(actualAccountInfoFound);
 	}
 
 	@AfterTest
