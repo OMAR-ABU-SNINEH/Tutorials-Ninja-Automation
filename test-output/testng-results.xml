@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-06T15:00:40 EET" name="Default suite" finished-at="2025-01-06T15:00:48 EET" duration-ms="8121">
+  <suite started-at="2025-01-06T18:06:52 EET" name="Default suite" finished-at="2025-01-06T18:06:58 EET" duration-ms="5716">
     <groups>
     </groups>
-    <test started-at="2025-01-06T15:00:40 EET" name="Default test" finished-at="2025-01-06T15:00:48 EET" duration-ms="8121">
-      <class name="tutorialsninja.register.TC_RF_003">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialsninja.register.TC_RF_003@298a5e20]" started-at="2025-01-06T15:00:40 EET" name="setUp" finished-at="2025-01-06T15:00:44 EET" duration-ms="4778" status="PASS">
+    <test started-at="2025-01-06T18:06:52 EET" name="Default test" finished-at="2025-01-06T18:06:58 EET" duration-ms="5716">
+      <class name="tutorialsninja.register.TC_RF_004">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialsninja.register.TC_RF_004@f78a47e]" started-at="2025-01-06T18:06:52 EET" name="setUp" finished-at="2025-01-06T18:06:56 EET" duration-ms="3996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="registerWithMandatoryFields()[pri:1, instance:tutorialsninja.register.TC_RF_003@298a5e20]" started-at="2025-01-06T15:00:44 EET" name="registerWithMandatoryFields" finished-at="2025-01-06T15:00:47 EET" duration-ms="3080" status="PASS">
+        <test-method signature="registerWithoutEnterAnything()[pri:1, instance:tutorialsninja.register.TC_RF_004@f78a47e]" started-at="2025-01-06T18:06:57 EET" name="registerWithoutEnterAnything" finished-at="2025-01-06T18:06:58 EET" duration-ms="1430" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerWithMandatoryFields -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tutorialsninja.register.TC_RF_003@298a5e20]" started-at="2025-01-06T15:00:47 EET" name="cleanUp" finished-at="2025-01-06T15:00:48 EET" duration-ms="220" status="PASS">
+        </test-method> <!-- registerWithoutEnterAnything -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tutorialsninja.register.TC_RF_004@f78a47e]" started-at="2025-01-06T18:06:58 EET" name="cleanUp" finished-at="2025-01-06T18:06:58 EET" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- tutorialsninja.register.TC_RF_003 -->
+      </class> <!-- tutorialsninja.register.TC_RF_004 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

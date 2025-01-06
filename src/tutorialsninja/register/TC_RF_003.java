@@ -31,7 +31,7 @@ public class TC_RF_003 {
 	}
 
 	@Test(priority = 1, enabled = true)
-	public void registerWithMandatoryFields() {
+	public void registerWithAllFields() {
 
 		WebElement myAccount = driver.findElement(By.xpath("//span[text()='My Account']"));
 		myAccount.click();
