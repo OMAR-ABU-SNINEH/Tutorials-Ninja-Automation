@@ -12,7 +12,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TC_RF_001 {
+public class TC_RF_003 {
 
 	WebDriver driver;
 
@@ -61,6 +61,9 @@ public class TC_RF_001 {
 
 		WebElement passwordConField = driver.findElement(By.id("input-confirm"));
 		passwordConField.sendKeys("12345678");
+
+		WebElement newsletterSubscribeRadio = driver.findElement(By.cssSelector("input[value='1'][name='newsletter']"));
+		newsletterSubscribeRadio.click();
 
 		WebElement checkPolicy = driver.findElement(By.name("agree"));
 		checkPolicy.click();
